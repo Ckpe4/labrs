@@ -1,6 +1,6 @@
 <!DOCTYPE html >
 <html>
-	<title>PineApple - innovations every day!</title>
+	<title>Котомагазин - всім добра!</title>
     <meta charset="UTF-8"></meta>
     <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
     <link rel="stylesheet" href="lib/w3.css"></link>
@@ -9,14 +9,14 @@
 	
     <body>
         <header class="w3-container w3-card-4 w3-theme">
-            <h1>PineApple - innovations every day!</h1>
+            <h1>Котомагазин - всім подобаються котики! Особливо в інтернеті:)</h1>
         </header>
         
 		<span id="registration"></span>
-        <button id="login" class="w3-btn w3-theme-l3">Login</button>
-        <button id="signout" class="w3-btn w3-theme-l3">Sign Out</button>
-        <button id="checksession" class="w3-btn w3-theme-l3">Check Session</button>
-        <button id="checkcookiebutton" class="w3-btn w3-theme-l3">Check Cookie</button>
+        <button id="login" class="w3-btn w3-theme-l3">Увійти</button>
+        <button id="signout" class="w3-btn w3-theme-l3">Вийти</button>
+        <button id="checksession" class="w3-btn w3-theme-l3">Перевірити сесію</button>
+        <button id="checkcookiebutton" class="w3-btn w3-theme-l3">Перевірити Cookie</button>
         
         <p id="log"><p>
 		
@@ -24,7 +24,7 @@
         </div>
         
 		<footer class="w3-container w3-theme">
-            <span id="totalprice">Total price = </span> <button id="buybutton" class="w3-btn w3-theme-l3">Buy</button>
+            <span id="totalprice">Загальна ціна = </span> <button id="buybutton" class="w3-btn w3-theme-l3">Buy</button>
             <p class="input verify:error">This page contains icons made by Freepik from
             <a href="http://www.flaticon.com">www.flaticon.com</a> </p>
         </footer>
@@ -35,8 +35,8 @@
                 <div class="w3-container">
                     <span onclick="document.getElementById('buydialog').style.display='none'"
                         class="w3-closebtn">&times;</span>
-                    <p>Thank you!</p>
-                    <p>Total: <span id="dialogprice"></span> USD.</p>
+                    <p>Дякую!</p>
+                    <p>Сумарно: <span id="dialogprice"></span> USD.</p>
                 </div>
             </div>
         </div>
@@ -47,18 +47,18 @@
                 <div class="w3-container">
                     <span onclick="document.getElementById('logindialog').style.display='none'"
                         class="w3-closebtn">&times;</span>
-                    <p>Please enter your credentials</p>
+                    <p>Будь ласка введіть ваші дані</p>
                     
                     <label class="w3-label">Email</label>
                     <input class="w3-input" type="email" id="log_email" required>
                      
-                    <label class="w3-label">Password</label>
+                    <label class="w3-label">Пароль</label>
                     <input class="w3-input" type="password" id="log_pass" required>
                     
-                    <p><button id="loginbutton" class="w3-btn w3-theme-l3">Login</button>
+                    <p><button id="loginbutton" class="w3-btn w3-theme-l3">Логін</button>
                     
-                    <p>Not registered yet?
-                    <button id="showregisterdialog" class="w3-btn w3-theme-l3">Register</button>
+                    <p>Ще не зареєстровані?
+                    <button id="showregisterdialog" class="w3-btn w3-theme-l3">Зареєструватись</button>
                     
                 </div>
             </div>
@@ -71,24 +71,24 @@
                     <span onclick="document.getElementById('registerdialog').style.display='none'"
                         class="w3-closebtn">&times;</span>
                     
-                    <p>Please provide the following information for registration:</p>
+                    <p>Будь ласка введіть необхідну інформацію для реєстрації:</p>
                     
-                    <label class="w3-label">First Name</label>
+                    <label class="w3-label">Ім'я</label>
                     <input class="w3-input" type="text" id="reg_first" required>
     
-                    <label class="w3-label">Last Name</label>
+                    <label class="w3-label">Прізвище</label>
                     <input class="w3-input" type="text" id="reg_last" required>
                         
                     <label class="w3-label">Email</label>
                     <input class="w3-input" type="email" id="reg_email" required>
                      
-                    <label class="w3-label">Password</label>
+                    <label class="w3-label">Пароль</label>
                     <input class="w3-input" type="password" id="reg_pass" required>
                      
-                    <label class="w3-label">Confirm Your Password</label>
+                    <label class="w3-label">Повторіть пароль</label>
                     <input class="w3-input" type="password" id="reg_verpass" required>
                         
-                    <p><button id="register" class="w3-btn w3-theme-l3">Register</button>
+                    <p><button id="register" class="w3-btn w3-theme-l3">Зареєструватись</button>
                         
                     </table>
                 </div>
