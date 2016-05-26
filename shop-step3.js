@@ -214,7 +214,7 @@
         selectionChangeF();
     }
  
-	postJSON("shop.php", "", updateContentF, errorF, timeoutF);
+	postJSON("shop-step3.php", "", updateContentF, errorF, timeoutF);
 	
 })();
 
